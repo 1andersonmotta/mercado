@@ -1,0 +1,66 @@
+body{
+background: url('fotomercado.jpg')no-repeat;
+background-size: 1500px  850px;
+
+}
+#tabela{
+    
+    position: absolute;
+    float: right;
+    top: 15px;
+    margin-left: 520px;
+    width: 810px;
+    height: auto;
+    font: normal 18pt Arial;
+    text-align: center;
+    padding: 5px; 
+
+    
+}
+
+
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   margin-top: -05px;
+   font-size: 20pt;
+   text-shadow: 1px 1px 1px black;
+   color: blue;
+   background-color: rgba(255, 255, 255, 0.74);
+   width: 350px;
+   text-align: center;
+   border-radius: 7px;
+   box-shadow: 1px 1px 2px black;
+}
+div{
+    background-color: rgba(255, 255, 255, 0.822);
+    width:500px;
+    padding: 5px;
+    border-radius: 7px;
+    border: solid rgba(255, 255, 255, 0.527);
+    margin-top: -15px;
+    line-height: 0px;
+    box-shadow: 1px 1px 3px black;
+}
+p{
+font-family: Verdana, Geneva, Tahoma, sans-serif;    
+font-size: 18pt;
+}
+#valor{
+    width: 100px;
+}
+input{
+    font: normal 14pt Arial ;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 1px 1px 3px black;
+}
+button{
+    font: normal 22pt Arial ;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 1px 1px 3px black;
+
+}
+input#excluir{
+    font: normal 22pt Arial;
+}

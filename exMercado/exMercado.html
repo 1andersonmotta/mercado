@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="exMercado.js"></script>
+    <link rel="stylesheet" href="exMercado.css">
+
+</head>
+<body>
+    <script>
+ 
+
+    </script>
+<h1>Controle de Produtos</h1>
+
+<div>
+<p>Adicione o Produto:  <input type="text" name="produto" id="produto" ></p>
+</div>
+<div>
+    <p>Valor:
+    <input type="number" name="valor" id="valor" ></p>
+    </div>
+<div>
+<p >Categoria:</p>
+  <p>  <input type="radio" name="categorias" id="alimentos" checked>
+    <label for="alimentos">Alimentos</label></p>
+ <p>   <input type="radio" name="categorias" id="bebidas">
+    <label for="bebidas">Bebidas</label></p>
+ <p>   <input type="radio" name="categorias" id="higiene">
+    <label for="higiene">Higiene / Limpeza</label></p>
+
+</div>
+
+<div>
+<p>Salvar</p>
+<button onclick="produto.salvar()" id="btn1">Salvar</button>
+<p>Excluir</p>
+<input type="button" value="Excluir" id="excluir" onclick="produto.cancelar()">
+</div>
+
+<div id="tabela"  >
+<table border="1" >
+    <thead>
+        <th>Id</th>
+        <th>Produto</th>
+        <th>Categoria</th>
+        <th>Valor</th>
+        <th>Ações</th>
+    </thead>
+    <tbody id="tbody" >
+
+    </tbody>
+    
+</table>
+</div>
+
+</body>
+</html>
